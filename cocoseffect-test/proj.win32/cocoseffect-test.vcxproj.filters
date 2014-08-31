@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ColorRampEffect">
+      <UniqueIdentifier>{eddc130b-2d51-46ff-8ab8-53ec293788e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\EmbossEffect">
+      <UniqueIdentifier>{0b27a00f-6ae5-4f0a-b4aa-a359c77ebe03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{2527d4c6-8526-483b-bb29-ade21607af3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\MovingGrassEffect">
+      <UniqueIdentifier>{4c7381e7-a9f9-4924-80ee-f6f816da5a29}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\VisibleRect.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TestBasic.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ColorRampEffect\ColorRampTestScene.cpp">
+      <Filter>Classes\ColorRampEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BaseTest.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\EmbossEffect\EmbossTestScene.cpp">
+      <Filter>Classes\EmbossEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MovingGrassEffect\MovingGrassTestScene.cpp">
+      <Filter>Classes\MovingGrassEffect</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\VisibleRect.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TestBasic.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ColorRampEffect\ColorRampTestScene.h">
+      <Filter>Classes\ColorRampEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BaseTest.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EmbossEffect\EmbossTestScene.h">
+      <Filter>Classes\EmbossEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MovingGrassEffect\MovingGrassTestScene.h">
+      <Filter>Classes\MovingGrassEffect</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\CSEColorRamp.fsh">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\Resources\CSEEmboss.fsh">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\Resources\CSEGrass.fsh">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
